@@ -1,6 +1,7 @@
 
 import Navbar from "./components/navbar"
 import Hero from "./components/hero"
+import { ProblemSection } from "./components/problem-section"
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
     <Navbar />
      <Hero />
+     <ProblemSection />
     </>
   )
 }
