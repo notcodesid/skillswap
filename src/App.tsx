@@ -1,15 +1,17 @@
 
-import Navbar from "./components/navbar"
+// import Navbar from "./components/navbar"
 import Hero from "./components/hero"
 import { ProblemSection } from "./components/problem-section"
+import { FeaturesSection } from "./components/featurs"
 
 function App() {
 
   return (
     <>
-    <Navbar />
+    {/* <Navbar /> */}
      <Hero />
      <ProblemSection />
+     <FeaturesSection />
     </>
   )
 }
