@@ -22,7 +22,7 @@ Trade skills, not bills.
         constraints{" "}
       </motion.p>
 
-      <motion.div
+      {/* <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.6 }}
@@ -30,7 +30,7 @@ Trade skills, not bills.
         <button className="bg-white text-black px-6 py-3 rounded-lg text-lg font-medium hover:bg-gray-100 transition-colors">
           Join Waitlist →
         </button>
-      </motion.div>
+      </motion.div> */}
     </div>
   );
 }
