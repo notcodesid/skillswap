@@ -4,11 +4,11 @@ export default function Navbar() {
       <div className="text-white text-xl font-semibold">SkillSwap</div>
       <div className="flex gap-4">
         <button className="text-gray-300 hover:text-white transition-colors">
-          Log in
+          Join Waitlist
         </button>
-        <button className="bg-white text-black px-4 py-2 rounded-lg hover:bg-gray-100 transition-colors">
+        {/* <button className="bg-white text-black px-4 py-2 rounded-lg hover:bg-gray-100 transition-colors">
           Sign up
-        </button>
+        </button> */}
       </div>
     </nav>
   );
