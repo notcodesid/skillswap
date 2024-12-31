@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <nav className="fixed w-full z-50 flex justify-between items-center py-4 px-6">
+    <nav className=" bg-black w-full z-50 flex justify-between items-center py-4 px-6">
       <div className="text-white text-xl font-semibold">SkillSwap</div>
       <div className="flex gap-4">
         <button className="text-gray-300 hover:text-white transition-colors">

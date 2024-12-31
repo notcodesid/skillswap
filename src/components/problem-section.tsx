@@ -13,7 +13,7 @@ export function ProblemSection() {
           </h2>
         </div>
 
-        <div className="flex p-5 text-center mx-10">
+        <div className="flex p-5 text-center mx-10 flex-wrap">
           <div className="flex flex-col items-center space-y-4 ">
             <div className="flex h-16 w-16 items-center justify-center rounded-full bg-red-100/10">
               <Brain className="h-8 w-8 text-red-500" />
